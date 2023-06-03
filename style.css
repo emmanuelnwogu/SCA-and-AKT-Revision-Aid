@@ -43,12 +43,14 @@
 
 @media(max-width:500px){
     .wrapper-main{
-        width:100%
+        width:100%;
+        background-color:beige;
     }
 }
 
 @media(min-width:501px){
     .wrapper-main{
-        width:100%
+        width:100%;
+        background-color:beige;
     }
 }
