@@ -3,9 +3,10 @@
     width:100%;
     align-items: baseline;
 }
-col-1{
+
+
+.controller{
     position:absolute;
-    width:100%;
-    align-items: center;
-    height:100vh
+    width: 100px;
+    align-items:normal;
 }
