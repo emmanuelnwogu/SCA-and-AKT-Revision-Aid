@@ -1,5 +1,11 @@
 .container{
     height:100vh;
-    display:grid;
-    width:100%
+    width:100%;
+    align-items: baseline;
+}
+col-1{
+    position:absolute;
+    width:50%;
+    align-items: center;
+    height:100vh
 }
