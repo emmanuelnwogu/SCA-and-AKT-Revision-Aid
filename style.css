@@ -1,4 +1,5 @@
 .container{
     height:100vh;
-    display:grid
+    display:grid;
+    width:100%
 }
