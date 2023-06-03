@@ -6,7 +6,15 @@
 
 
 .controller{
-    position:absolute;
-    width: 100px;
+    position:relative;
+    width: 30%;
     align-items:normal;
+    height:40%
+}
+
+.controller2{
+    position:relative;
+    width:80%;
+    height:150px;
+    align-items: normal;
 }
