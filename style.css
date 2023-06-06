@@ -7,9 +7,11 @@
 
 .controller{
     position:relative;
-    width: 30%;
+    width: 27%;
     align-items:normal;
-    height:40%
+    height:40%;
+    display:block;
+    margin:0px auto
 }
 
 .controller2{
@@ -26,7 +28,7 @@
 .wrapper-main{
     width:100%;
     padding:10px 0;
-    margin:0 auto;
+    margin:0px auto;
 }
 
 .controller4{
