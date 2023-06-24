@@ -40,6 +40,7 @@
     font-stretch: expanded;
     margin:0 auto;
     transition:3s;
+    background-size:auto;
 }
 
 .inner_header:hover{
