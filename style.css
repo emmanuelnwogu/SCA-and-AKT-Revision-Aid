@@ -11,9 +11,9 @@
     max-width:fit-content;
     align-items:normal;
     height:40%;
-    display:flow-root;
+    display:block;
     margin:0px auto;
-    transition:1s;
+    transition:3s;
     
 }
 .controller:hover{
@@ -29,6 +29,20 @@
     align-items: center;
 }
 
+.inner_header{
+    width:100%;
+    display:block;
+    background-color: rgba(24, 131, 106, 0.268);
+    font-size:350%;
+    text-align: left;
+    font-style:normal;
+    margin:0 auto;
+    transition:3s;
+}
+
+.inner_header:hover{
+    transform:scale(1.05);
+}
 .controller3{
     width:100%;
     min-width:70%;
