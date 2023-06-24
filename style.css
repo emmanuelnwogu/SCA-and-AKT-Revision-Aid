@@ -41,6 +41,7 @@
     margin:0 auto;
     transition:3s;
     background-size:auto;
+    
 }
 
 .inner_header:hover{
@@ -51,6 +52,7 @@
     min-width:70%;
     align-items:normal;
     margin:auto;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .controller6{
@@ -85,6 +87,7 @@
     min-width:70%;
     max-height:250px;
     max-zoom:0.5;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 footer{
