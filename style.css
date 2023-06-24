@@ -64,7 +64,7 @@
 .controller4 h1{
     font-size:60px;
     text-align:left;
-    width:192vh;
+    width:100%;
     min-width:70%;
     max-height:250px;
     max-zoom:0.5;
