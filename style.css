@@ -8,21 +8,43 @@
 .controller{
     position:relative;
     width: 27%;
+    max-width:fit-content;
     align-items:normal;
     height:40%;
     display:block;
-    margin:0px auto
+    margin:0px auto;
+    transition:1s;
+    
+}
+.controller:hover{
+    transform:scale(1.05);
+    cursor:pointer;
 }
 
 .controller2{
     position:relative;
     width:100%;
-    height:150px;
+    min-height:27px;
+    max-height:100px;
     align-items: normal;
 }
 
 .controller3{
     width:100%;
+    min-width:70%;
+    align-items:normal;
+    margin:auto;
+}
+
+.controller6{
+    width:100%;
+    height:50px;
+    font-size:60px;
+    margin:auto;
+}
+
+.controller8{
+    font-size:100px;
 }
 
 .wrapper-main{
@@ -33,19 +55,39 @@
 
 .controller4{
     width:100%;
-    height:50px
+    height:50px;
+    margin:auto;
+}
+
+.controller4 img{
+    max-width:100%;
+    min-width:60%;
+    width:75%;
+    height:fit-content;
+    min-zoom:5px;
+    max-zoom: 20px;
+
+}
+
+.controller4 h1{
+    font-size:60px;
+    text-align:center;
+    width:100%;
+    min-width:70%;
+    max-height:250px;
+    max-zoom:0.5;
 }
 
 footer{
     width:100%;
     position:absolute;
-    height: 20px;
+    height: 100px;
     bottom:0;
     text-align: left;
     right:0;
     left:0;
     background:goldenrod; 
-    font-size:16px;
+    font-size:50px;
 }
 
 @media(max-width:500px){
@@ -53,12 +95,25 @@ footer{
         width:100%;
         background-color:beige;
     }
+    h1{
+        font-size:calc(1rem+2.0rem);
+    }
+    h3{
+        --fs-xl:5rem;
+        --fs-600:1.5rem;
+        --fs-500:1.25rem;
+        --fs-400:1rem;
+    }
 }
 
 @media(min-width:501px){
     .wrapper-main{
         width:100%;
         background-color:beige;
+        --fs-xl:5rem;
+        --fs-600:1.5rem;
+        --fs-500:1.25rem;
+        --fs-400:1rem;
     }
 }
 
@@ -68,7 +123,7 @@ footer{
     background-color:rgb(248, 242, 195);
 }
 .comment-box{
-    top:50%
+    top:50%;
     left:50%;
     position:absolute;
     transform:translate(, -50%);
@@ -125,7 +180,7 @@ footer{
 }
 
 .outside{
-    font-size:30px;
+    font-size:100px;
     position:relative;
     left:10%;
 }
