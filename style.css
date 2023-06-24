@@ -129,7 +129,7 @@ footer{
     padding:0;
     margin:0;
     background-color:rgb(249, 248, 247);
-    background-size:100%;
+    background-size:auto;
 }
 .comment-box{
     top:50%;
