@@ -36,6 +36,8 @@
     font-size:350%;
     text-align: left;
     font-style:normal;
+    font-family:'Courier New', Courier, monospace;
+    font-stretch: expanded;
     margin:0 auto;
     transition:3s;
 }
