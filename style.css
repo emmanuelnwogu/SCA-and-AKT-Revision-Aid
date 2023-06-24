@@ -59,15 +59,7 @@
     margin:auto;
 }
 
-.controller4 img{
-    max-width:100%;
-    min-width:60%;
-    width:75%;
-    height:fit-content;
-    min-zoom:5px;
-    max-zoom: 20px;
 
-}
 
 .controller4 h1{
     font-size:60px;
