@@ -30,7 +30,7 @@
 }
 
 .controller3{
-    width:100%;
+    width:192vh;
     min-width:70%;
     align-items:normal;
     margin:auto;
@@ -48,7 +48,7 @@
 }
 
 .wrapper-main{
-    width:100%;
+    width:192vh;
     padding:10px 0;
     margin:0px auto;
 }
@@ -63,8 +63,8 @@
 
 .controller4 h1{
     font-size:60px;
-    text-align:center;
-    width:100%;
+    text-align:left;
+    width:192vh;
     min-width:70%;
     max-height:250px;
     max-zoom:0.5;
