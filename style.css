@@ -210,6 +210,8 @@ footer{
         width:300%;
         word-wrap: break-word;
         overflow-wrap: break-word;
+        text-overflow: ellipsis;
+        overflow:scroll;
     }
     .controller4{
         width:300%;
@@ -218,8 +220,7 @@ footer{
     }
     .controller1{
         width:300%;
-        word-wrap: break-word;
-        overflow-wrap: break-word;
+        
     }
    
     
