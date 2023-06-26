@@ -187,7 +187,7 @@ footer{
     left:10%;
 }
 
-@media screen and (max-width:1500px){
+@media screen and (max-width:1000px){
     .wrapper-main{
         width:100%;
         background-color:rgb(238, 239, 240);
@@ -203,21 +203,29 @@ footer{
     }
     .inner_header{
         width:300%;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
     }
     .controller3{
         width:300%;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
     }
     .controller4{
         width:300%;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
     }
     .controller1{
         width:300%
+        word-wrap: break-word;
+        overflow-wrap: break-word;
     }
    
     
 }
 
-@media screen and (min-width:375px){
+@media screen and (min-width:400px){
     .wrapper-main{
         width:100%;
         background-color:rgba(232, 229, 229, 0.002);
