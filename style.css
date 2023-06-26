@@ -42,6 +42,8 @@
     margin:0 auto;
     transition:3s;
     background-size:auto;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
     
 }
 
@@ -54,9 +56,13 @@
     align-items:normal;
     margin:auto;
     font-family: 'Courier New', Courier, monospace;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 }
 .controller1{
     font-family: 'Courier New', Courier, monospace;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 }
 
 .controller6{
@@ -196,16 +202,16 @@ footer{
         --fs-400:1rem;
     }
     .inner_header{
-        width:285%;
+        width:300%;
     }
     .controller3{
-        width:285%;
+        width:300%;
     }
     .controller4{
-        width:285%;
+        width:300%;
     }
     .controller1{
-        width:285%
+        width:300%
     }
    
     
@@ -218,7 +224,7 @@ footer{
         
     }
     .inner_header{
-        width:285%;
+        width:300%;
     }
    
     
