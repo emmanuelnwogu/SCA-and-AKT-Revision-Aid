@@ -4,6 +4,11 @@
     align-items: baseline;
 }
 
+.fish{
+    width:4%;
+    height:4%;
+    padding-left: 4%;
+}
 
 .controller{
     position:relative;
