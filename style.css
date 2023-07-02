@@ -181,6 +181,10 @@ footer{
     background-color:#44aa56
 }
 
+.hints{
+    font-size: 50px;
+}
+
 .outside{
     font-size:100px;
     position:relative;
