@@ -8,6 +8,12 @@
     width:4%;
     height:4%;
     padding-left: 4%;
+    transition:1s;
+}
+
+.fish:hover{
+    transform:scale(1.05);
+    cursor:pointer;
 }
 
 .controller{
