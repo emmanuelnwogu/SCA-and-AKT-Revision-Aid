@@ -12,6 +12,18 @@ nav{
     font-weight: 700;
 }
 
+nav:hover{
+    cursor: pointer;
+    
+}
+a:hover{
+    background: #b8b8ba;
+}
+
+#check{
+    display:none;
+}
+
 label{
     margin-left: 1%;
 }
@@ -27,6 +39,12 @@ label.logo{
 nav ul li{
     margin-left: 1.5%;
     font-size: 140%;
+    display:flexbox;
+    
+}
+
+nav ul li a{
+    display: block;
 }
 
 
