@@ -4,6 +4,23 @@
     align-items: baseline;
 }
 
+nav{
+    background:#44aa56;
+    width:100%;
+    font-size: 130%;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+}
+
+label.logo{
+    color:black;
+    font-size: 150%;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+
+}
+
+
 .fish{
     width:4%;
     height:4%;
