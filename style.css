@@ -12,12 +12,21 @@ nav{
     font-weight: 700;
 }
 
+label{
+    margin-left: 1%;
+}
+
 label.logo{
     color:black;
     font-size: 150%;
     font-family: 'Courier New', Courier, monospace;
     font-weight: 700;
 
+}
+
+nav ul li{
+    margin-left: 1.5%;
+    font-size: 140%;
 }
 
 
