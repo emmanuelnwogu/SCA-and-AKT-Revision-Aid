@@ -277,29 +277,29 @@ footer{
         --fs-400:1rem;
     }
     .inner_header{
-        width:340%;
+        width:350%;
         word-wrap: break-word;
         overflow-wrap: break-word;
     }
     .controller3{
-        width:340%;
+        width:350%;
         word-wrap: break-word;
         overflow-wrap: break-word;
         text-overflow: ellipsis;
         overflow:scroll;
     }
     .controller4{
-        width:340%;
+        width:350%;
         word-wrap: break-word;
         overflow-wrap: break-word;
     }
     .controller1{
-        width:340%;
+        width:350%;
         
     }
 
     nav{
-        width:340%;
+        width:350%;
         word-wrap: break-word;
         overflow-wrap: break-word;
 
