@@ -264,7 +264,7 @@ footer{
 
 @media screen and (max-width:1000px){
     .wrapper-main{
-        width:100%;
+        width:300%;
         background-color:rgb(238, 239, 240);
     }
     h1{
@@ -319,7 +319,7 @@ footer{
     }
 
     nav{
-        width:100%;
+        width:200%;
         word-wrap: break-word;
         overflow-wrap: break-word;
 
