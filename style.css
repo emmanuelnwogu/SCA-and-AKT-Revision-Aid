@@ -308,7 +308,7 @@ footer{
     
 }
 
-@media screen and (min-width:390px){
+@media screen and (min-width:359px) and (max-width:411px){
     .wrapper-main{
         width:100%;
         background-color:rgba(232, 229, 229, 0.002);
@@ -339,12 +339,55 @@ footer{
         width:100%;
         
     }
-
+    img{
+        width:100%;
+    }
+   
     
 
 }
 
-@media screen and (min-width:820px){
+
+
+@media screen and (min-width:411px) and (max-width:916px){
+    .wrapper-main{
+        width:100%;
+        background-color:rgba(232, 229, 229, 0.002);
+        
+    }
+    .inner_header{
+        width:100%;
+    }
+
+    nav{
+        width:100%;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+
+    }
+
+    .controller3{
+        width:100%;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+    }
+    .controller4{
+        width:100%;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+    }
+    .controller1{
+        width:100%;
+        
+    }
+    img{
+        width:100%;
+    }
+
+   
+}
+
+@media screen and (min-width:916px){
     .wrapper-main{
         width:100%;
         background-color:rgba(232, 229, 229, 0.002);
@@ -377,74 +420,4 @@ footer{
     }
 
    
-}
-
-@media screen and (min-width:412px){
-    .wrapper-main{
-        width:100%;
-        background-color:rgba(232, 229, 229, 0.002);
-        
-    }
-    .inner_header{
-        width:100%;
-    }
-
-    nav{
-        width:100%;
-        word-wrap: break-word;
-        overflow-wrap: break-word;
-
-    }
-
-    .controller3{
-        width:100%;
-        word-wrap: break-word;
-        overflow-wrap: break-word;
-    }
-    .controller4{
-        width:100%;
-        word-wrap: break-word;
-        overflow-wrap: break-word;
-    }
-    .controller1{
-        width:100%;
-        
-    }
-
-   
-}
-
-@media screen and (min-width:1280px){
-    .wrapper-main{
-        width:100%;
-        background-color:rgba(232, 229, 229, 0.002);
-        
-    }
-    .inner_header{
-        width:100%;
-    }
-
-    nav{
-        width:100%;
-        word-wrap: break-word;
-        overflow-wrap: break-word;
-
-    }
-
-    .controller3{
-        width:100%;
-        word-wrap: break-word;
-        overflow-wrap: break-word;
-    }
-    .controller4{
-        width:100%;
-        word-wrap: break-word;
-        overflow-wrap: break-word;
-    }
-    .controller1{
-        width:100%;
-        
-    }
-
-    
 }
