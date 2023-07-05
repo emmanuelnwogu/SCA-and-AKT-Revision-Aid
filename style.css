@@ -389,33 +389,33 @@ footer{
 
 @media screen and (min-width:916px){
     .wrapper-main{
-        width:100%;
+        width:300%;
         background-color:rgba(232, 229, 229, 0.002);
         
     }
     .inner_header{
-        width:100%;
+        width:3500%;
     }
 
     nav{
-        width:100%;
+        width:3500%;
         word-wrap: break-word;
         overflow-wrap: break-word;
 
     }
 
     .controller3{
-        width:100%;
+        width:350%;
         word-wrap: break-word;
         overflow-wrap: break-word;
     }
     .controller4{
-        width:100%;
+        width:350%;
         word-wrap: break-word;
         overflow-wrap: break-word;
     }
     .controller1{
-        width:100%;
+        width:350%;
         
     }
 
