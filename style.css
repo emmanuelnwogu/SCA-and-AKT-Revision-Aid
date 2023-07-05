@@ -334,6 +334,10 @@ footer{
         width:100%;
         word-wrap: break-word;
         overflow-wrap: break-word;
+        
+    }
+    .controller4.h1{
+        font-size: 15px;
     }
     .controller1{
         width:100%;
@@ -342,6 +346,8 @@ footer{
     img{
         width:100%;
     }
+
+    
    
     
 
@@ -373,6 +379,7 @@ footer{
     }
     .controller4{
         width:100%;
+        font-size: 10%;
         word-wrap: break-word;
         overflow-wrap: break-word;
     }
@@ -394,28 +401,28 @@ footer{
         
     }
     .inner_header{
-        width:3500%;
+        width:100%;
     }
 
     nav{
-        width:350%;
+        width:100%;
         word-wrap: break-word;
         overflow-wrap: break-word;
 
     }
 
     .controller3{
-        width:350%;
+        width:100%;
         word-wrap: break-word;
         overflow-wrap: break-word;
     }
     .controller4{
-        width:350%;
+        width:100%;
         word-wrap: break-word;
         overflow-wrap: break-word;
     }
     .controller1{
-        width:350%;
+        width:100%;
         
     }
 
