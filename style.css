@@ -262,7 +262,7 @@ footer{
     left:10%;
 }
 
-@media screen and (max-width:1000px){
+@media screen and (max-width:1300px){
     .wrapper-main{
         width:300%;
         background-color:rgb(238, 239, 240);
@@ -308,39 +308,24 @@ footer{
     
 }
 
-@media (min-width:200px){
+@media screen and (min-width:400px){
     .wrapper-main{
         width:100%;
         background-color:rgba(232, 229, 229, 0.002);
         
     }
     .inner_header{
-        width:200%;
+        width:100%;
     }
 
     nav{
-        width:200%;
+        width:100%;
         word-wrap: break-word;
         overflow-wrap: break-word;
 
     }
 
-    .controller3{
-        width:100%;
-        word-wrap: break-word;
-        overflow-wrap: break-word;
-        text-overflow: ellipsis;
-        overflow:scroll;
-    }
-    .controller4{
-        width:100%;
-        word-wrap: break-word;
-        overflow-wrap: break-word;
-    }
-    .controller1{
-        width:100%;
-        
-    }
+    
    
     
 }
