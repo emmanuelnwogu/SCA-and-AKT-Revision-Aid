@@ -304,8 +304,6 @@ footer{
         overflow-wrap: break-word;
 
     }
-   
-    
 }
 
 @media screen and (min-width:359px) and (max-width:411px){
@@ -335,9 +333,7 @@ footer{
     .controller4{
         width:100%;
         word-wrap: break-word;
-        overflow-wrap: break-word;
-       
-        
+        overflow-wrap: break-word; 
     }
     .controller4 h1{
         font-size: 120%;
@@ -355,13 +351,6 @@ footer{
     nav ul li{
         font-size: 120%;
     }
-
-    
-
-    
-   
-    
-
 }
 
 
@@ -447,6 +436,4 @@ footer{
         width:100%;
         
     }
-
-   
 }
