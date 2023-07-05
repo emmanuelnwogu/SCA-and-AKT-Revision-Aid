@@ -374,6 +374,7 @@ footer{
     }
     .inner_header{
         width:100%;
+        font-size: 120%;
     }
 
     nav{
@@ -387,19 +388,29 @@ footer{
         width:100%;
         word-wrap: break-word;
         overflow-wrap: break-word;
+        font-size: 120%;
     }
     .controller4{
         width:100%;
-        font-size: 10%;
         word-wrap: break-word;
         overflow-wrap: break-word;
     }
+
+    .controller4 h1{
+        font-size: 150%;
+        font-weight: 800;
+    }
     .controller1{
         width:100%;
+        font-size: 120%;
         
     }
     img{
         width:100%;
+    }
+
+    nav ul li{
+        font-size: 120%;
     }
 
    
