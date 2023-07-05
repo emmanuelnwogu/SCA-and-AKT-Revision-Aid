@@ -389,7 +389,7 @@ footer{
 
 @media screen and (min-width:916px){
     .wrapper-main{
-        width:300%;
+        width:100%;
         background-color:rgba(232, 229, 229, 0.002);
         
     }
@@ -398,7 +398,7 @@ footer{
     }
 
     nav{
-        width:3500%;
+        width:350%;
         word-wrap: break-word;
         overflow-wrap: break-word;
 
