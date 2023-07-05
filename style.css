@@ -329,8 +329,6 @@ footer{
         width:100%;
         word-wrap: break-word;
         overflow-wrap: break-word;
-        text-overflow: ellipsis;
-        overflow:scroll;
     }
     .controller4{
         width:100%;
@@ -342,11 +340,111 @@ footer{
         
     }
 
-    img{
+    
+
+}
+
+@media screen and (min-width:820px){
+    .wrapper-main{
+        width:100%;
+        background-color:rgba(232, 229, 229, 0.002);
+        
+    }
+    .inner_header{
         width:100%;
     }
 
-    
+    nav{
+        width:100%;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+
+    }
+
+    .controller3{
+        width:100%;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+    }
+    .controller4{
+        width:100%;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+    }
+    .controller1{
+        width:100%;
+        
+    }
+
    
+}
+
+@media screen and (min-width:412px){
+    .wrapper-main{
+        width:100%;
+        background-color:rgba(232, 229, 229, 0.002);
+        
+    }
+    .inner_header{
+        width:100%;
+    }
+
+    nav{
+        width:100%;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+
+    }
+
+    .controller3{
+        width:100%;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+    }
+    .controller4{
+        width:100%;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+    }
+    .controller1{
+        width:100%;
+        
+    }
+
+   
+}
+
+@media screen and (min-width:1280px){
+    .wrapper-main{
+        width:100%;
+        background-color:rgba(232, 229, 229, 0.002);
+        
+    }
+    .inner_header{
+        width:100%;
+    }
+
+    nav{
+        width:100%;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+
+    }
+
+    .controller3{
+        width:100%;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+    }
+    .controller4{
+        width:100%;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+    }
+    .controller1{
+        width:100%;
+        
+    }
+
     
 }
