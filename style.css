@@ -297,6 +297,13 @@ footer{
         width:300%;
         
     }
+
+    nav{
+        width:300%;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+
+    }
    
     
 }
@@ -309,6 +316,13 @@ footer{
     }
     .inner_header{
         width:300%;
+    }
+
+    nav{
+        width:100%;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+
     }
    
     
