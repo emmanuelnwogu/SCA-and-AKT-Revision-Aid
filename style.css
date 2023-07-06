@@ -565,3 +565,57 @@ footer{
     }
 }
 
+@media screen and (min-width:917px) {
+    .wrapper-main{
+        width:100%;
+        background-color:rgba(232, 229, 229, 0.002);
+        
+    }
+    .inner_header{
+        width:100%;
+        
+    }
+
+    nav{
+        width:100%;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+
+    }
+
+    .controller3{
+        width:100%;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+        font-size: 120%;
+    }
+    .controller4{
+        width:100%;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+    }
+
+    .controller4 h1{
+        font-size: 150%;
+        font-weight: 800;
+    }
+    .controller1{
+        width:100%;
+        font-size: 120%;
+        
+    }
+
+    
+
+    .back-to-top{
+        width:20%; 
+        font-size:130%;
+        margin-right: 3%;
+        position: fixed;
+
+    }
+
+    nav ul li{
+        font-size: 120%;
+    }
+}
