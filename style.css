@@ -453,7 +453,7 @@ footer{
     }
 }
 
-@media screen and (min-width:915px) and (max-width:1500px){
+@media screen and (min-width:915px){
     .wrapper-main{
         width:100%;
         background-color:rgba(232, 229, 229, 0.002);
