@@ -17,7 +17,7 @@ nav:hover{
     
 }
 a:hover{
-    background: #b8b8ba;
+    background: #bab8ba;
 }
 
 #check{
@@ -39,12 +39,17 @@ label.logo{
 nav ul li{
     margin-left: 1.5%;
     font-size: 140%;
-    display:flexbox;
+    display:ruby;
     
 }
 
 nav ul li a{
-    display: block;
+    display:block;
+    font-size: 120%;
+    font-weight: 900;
+    font-family: 'Courier New', Courier, monospace;
+    
+    
 }
 
 
