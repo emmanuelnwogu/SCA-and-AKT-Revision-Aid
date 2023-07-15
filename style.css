@@ -139,6 +139,7 @@ nav ul li a{
     word-wrap: break-word;
     overflow-wrap: break-word;
     padding-left: 1.5rem;
+    background-color: rgba(24, 131, 106, 0.268);
 }
 .controller1{
     font-family: 'Courier New', Courier, monospace;
@@ -146,6 +147,7 @@ nav ul li a{
     overflow-wrap: break-word;
     padding-left: 1.5rem;
     max-width: 100%;
+    background-color: rgba(64, 195, 47, 0.486);
 }
 
 .controller6{
