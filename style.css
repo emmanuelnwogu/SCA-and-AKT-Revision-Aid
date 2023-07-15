@@ -170,8 +170,7 @@ nav ul li a{
 .controller4{
     width:100%;
     height:50px;
-    margin:auto;
-    
+    margin:auto;    
 }
 
 
@@ -185,6 +184,7 @@ nav ul li a{
     max-zoom:0.5;
     font-family: 'Courier New', Courier, monospace;
     padding-left: 1.5rem;
+    background-color:rgba(17, 175, 223, 0.74);
 }
 
 .controller4 img{
