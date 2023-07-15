@@ -36,19 +36,34 @@ label.logo{
 
 }
 
+.id{
+    display: grid;
+}
+
 nav ul li{
     margin-left: 1.5%;
     font-size: 140%;
     display:ruby;
-    
+
 }
+
+ul li{
+    padding-left: 1rem;
+    background-image:url (https://th.bing.com/th/id/OIP.7ui1f8N5MYMPBKKvCKJpcgHaG3?w=172&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7);
+}
+
+ul{
+    list-style-type: circle;
+    padding-left: 1rem;;
+}
+
+
 
 nav ul li a{
     display:block;
     font-size: 120%;
     font-weight: 900;
     font-family: 'Courier New', Courier, monospace;
-    
     
 }
 
@@ -106,6 +121,7 @@ nav ul li a{
     background-size:auto;
     word-wrap: break-word;
     overflow-wrap: break-word;
+    padding-left: 1.5rem;
     
 }
 
@@ -115,16 +131,20 @@ nav ul li a{
 .controller3{
     width:100%;
     min-width:70%;
+    max-width: 100%;
     align-items:normal;
     margin:auto;
     font-family: 'Courier New', Courier, monospace;
     word-wrap: break-word;
     overflow-wrap: break-word;
+    padding-left: 1.5rem;
 }
 .controller1{
     font-family: 'Courier New', Courier, monospace;
     word-wrap: break-word;
     overflow-wrap: break-word;
+    padding-left: 1.5rem;
+    max-width: 100%;
 }
 
 .controller6{
@@ -148,6 +168,7 @@ nav ul li a{
     width:100%;
     height:50px;
     margin:auto;
+    
 }
 
 
@@ -160,6 +181,7 @@ nav ul li a{
     max-height:250px;
     max-zoom:0.5;
     font-family: 'Courier New', Courier, monospace;
+    padding-left: 1.5rem;
 }
 
 .controller4 img{
@@ -762,6 +784,12 @@ footer{
     nav ul li{
         font-size: 120%;
     }
+
+    .controller4 img{
+        min-width: 50%;
+        max-width: 100%;
+        
+    }
 }
 
 @media screen and (min-width:1279px)  {
@@ -817,6 +845,8 @@ footer{
     nav ul li{
         font-size: 120%;
     }
+
+  
 }
 
 
