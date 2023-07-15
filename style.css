@@ -185,6 +185,7 @@ nav ul li a{
     font-family: 'Courier New', Courier, monospace;
     padding-left: 1.5rem;
     background-color:rgba(17, 175, 223, 0.74);
+    border: 1.5px solid black;
 }
 
 .controller4 img{
