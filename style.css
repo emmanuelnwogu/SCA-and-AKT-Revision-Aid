@@ -192,11 +192,7 @@ nav ul li a{
 
 .controller4 img{
     margin-inline: 0%;
-    border: 3px solid black;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 65%;
+    
 }
 
 
@@ -332,6 +328,11 @@ footer{
         width:350%;
         word-wrap: break-word;
         overflow-wrap: break-word;
+        border: 3px solid black;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 65%;
     }
     .controller1{
         width:350%;
@@ -387,6 +388,8 @@ footer{
         margin-right: auto;
         margin-left: auto;
     }
+
+    
     
 }
 
@@ -538,6 +541,11 @@ footer{
         width:100%;
         word-wrap: break-word;
         overflow-wrap: break-word;
+        border: 3px solid black;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 65%;
     }
 
     .controller4 h1{
@@ -801,11 +809,15 @@ footer{
     .controller4 img{
         min-width: 50%;
         max-width: 100%;
-        
+        border: 3px solid black;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 65%;
     }
 }
 
-@media screen and (min-width:1279px)  {
+@media screen and (min-width:1279px) and (max-width:1282px) {
     .wrapper-main{
         width:100%;
         background-color:rgba(232, 229, 229, 0.002);
@@ -833,6 +845,17 @@ footer{
         width:100%;
         word-wrap: break-word;
         overflow-wrap: break-word;
+        
+    }
+
+    .controller4 img{
+        min-width: 50%;
+        max-width: 100%;
+        border: 3px solid black;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 65%;
     }
 
     .controller4 h1{
@@ -857,6 +880,14 @@ footer{
 
     nav ul li{
         font-size: 120%;
+    }
+
+    nav{
+        background:#44aa56;
+        width:103%;
+        font-size: 130%;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: 700;
     }
 
   
