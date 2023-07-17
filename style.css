@@ -135,12 +135,6 @@ nav ul li a{
     background-color: rgba(64, 195, 47, 0.486);
 }
 
-.controller6{
-    width:100%;
-    height:50px;
-    font-size:30px;
-    margin:auto;
-}
 
 .controller8{
     font-size:30px;
@@ -193,17 +187,7 @@ nav ul li a{
     font-family: 'Courier New', Courier, monospace;
 }
 
-footer{
-    width:100%;
-    position:absolute;
-    height: 100px;
-    bottom:0;
-    text-align: left;
-    right:0;
-    left:0;
-    background:goldenrod; 
-    font-size:50px;
-}
+
 
 
 
@@ -350,6 +334,12 @@ footer{
         transform:scale(0.9);
         cursor:pointer;
     }
+
+    .controller6{
+        width:100%;
+        font-size:95%;
+        margin-top: 1%;
+    }
 }
 
 @media screen and (min-width:279px) and (max-width:359){
@@ -396,8 +386,14 @@ footer{
         margin-right: auto;
         margin-left: auto;
     }
-
     
+
+    .controller6{
+        width:100%;
+        font-size:95%;
+        margin-top: 1%;
+    }
+
     
 }
 
@@ -472,6 +468,12 @@ footer{
     .controller:hover{
         transform:scale(0.9);
         cursor:pointer;
+    }
+
+    .controller6{
+        width:100%;
+        font-size:95%;
+        margin-top: 1%;
     }
 }
 
@@ -550,6 +552,12 @@ footer{
     .controller:hover{
         transform:scale(0.9);
         cursor:pointer;
+    }
+
+    .controller6{
+        width:100%;
+        font-size:95%;
+        margin-top: 1%;
     }
 }
 
@@ -636,6 +644,12 @@ footer{
         transform:scale(0.9);
         cursor:pointer;
     }
+
+    .controller6{
+        width:100%;
+        font-size:95%;
+        margin-top: 1%;
+    }
 }
 
 @media screen and (min-width:411px) and (max-width:415px){
@@ -715,6 +729,12 @@ footer{
         transform:scale(0.9);
         cursor:pointer;
     }
+
+    .controller6{
+        width:100%;
+        font-size:95%;
+        margin-top: 1%;
+    }
 }
 
 @media screen and (min-width:917px) {
@@ -788,6 +808,12 @@ footer{
     .controller:hover{
         transform:scale(0.9);
         cursor:pointer;
+    }
+
+    .controller6{
+        width:100%;
+        font-size:95%;
+        margin-top: 1%;
     }
 }
 
@@ -868,6 +894,12 @@ footer{
     .controller:hover{
         transform:scale(0.9);
         cursor:pointer;
+    }
+
+    .controller6{
+        width:100%;
+        font-size:95%;
+        margin-top: 1%;
     }
 }
 
@@ -955,6 +987,12 @@ footer{
     .controller:hover{
         transform:scale(0.9);
         cursor:pointer;
+    }
+
+    .controller6{
+        width:100%;
+        font-size:95%;
+        margin-top: 1%;
     }
 }
 
@@ -1046,6 +1084,11 @@ footer{
         cursor:pointer;
     }
 
+    .controller6{
+        width:100%;
+        font-size:95%;
+        margin-top: 1%;
+    }
   
 }
 
@@ -1137,7 +1180,12 @@ footer{
         cursor:pointer;
     }
 
-  
+    .controller6{
+        width:100%;
+        font-size:95%;
+        margin-top: 1%;
+    }
+    
 }
 
 
