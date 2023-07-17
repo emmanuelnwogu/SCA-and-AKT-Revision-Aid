@@ -405,10 +405,13 @@ footer{
     }
 
     nav{
-        width:100%;
+        background:#44aa56;
+        width:103%;
+        font-size: 130%;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: 700;
         word-wrap: break-word;
         overflow-wrap: break-word;
-
     }
 
     .controller3{
@@ -764,10 +767,13 @@ footer{
     }
 
     nav{
-        width:100%;
+        background:#44aa56;
+        width:103%;
+        font-size: 130%;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: 700;
         word-wrap: break-word;
         overflow-wrap: break-word;
-
     }
 
     .controller3{
@@ -828,12 +834,6 @@ footer{
         
     }
 
-    nav{
-        width:100%;
-        word-wrap: break-word;
-        overflow-wrap: break-word;
-
-    }
 
     .controller3{
         width:100%;
@@ -888,6 +888,8 @@ footer{
         font-size: 130%;
         font-family: 'Courier New', Courier, monospace;
         font-weight: 700;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
     }
 
   
