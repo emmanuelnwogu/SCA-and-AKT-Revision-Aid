@@ -296,9 +296,10 @@ footer{
 }
 
 .outside{
-    font-size:100px;
+    font-size:40px;
     position:relative;
-    left:10%;
+    margin-left: 35%;
+    margin-right: auto;
 }
 
 @media screen and (max-width:1300px){
