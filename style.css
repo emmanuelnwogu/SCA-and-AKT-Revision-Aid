@@ -87,16 +87,17 @@ nav ul li a{
     width: 27%;
     max-width:fit-content;
     align-items:normal;
-    height:40%;
+    height:20%;
     display:block;
     margin:0px auto;
     transition:3s;
-    margin-left: 30%;
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 3.0rem ;
     
 }
 .controller:hover{
-    transform:scale(1.05);
+    transform:scale(0.9);
     cursor:pointer;
 }
 
