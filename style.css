@@ -83,24 +83,7 @@ nav ul li a{
     cursor:pointer;
 }
 
-.controller{
-    position:relative;
-    width: 27%;
-    max-width:fit-content;
-    align-items:normal;
-    height:15%;
-    display:block;
-    margin:0px auto;
-    transition:3s;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 3.0rem ;
-    
-}
-.controller:hover{
-    transform:scale(0.9);
-    cursor:pointer;
-}
+
 
 .controller2{
     position:relative;
@@ -298,7 +281,7 @@ footer{
     margin-right: auto;
 }
 
-@media screen and (max-width:1300px){
+@media screen and (min-width:1283px) (max-width:1300px){
     .wrapper-main{
         width:300%;
         background-color:rgb(238, 239, 240);
@@ -340,10 +323,32 @@ footer{
     }
 
     nav{
-        width:350%;
+        background:#44aa56;
+        width:103%;
+        font-size: 130%;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: 700;
         word-wrap: break-word;
         overflow-wrap: break-word;
+    }
 
+    .controller{
+        position:relative;
+        width: 27%;
+        max-width:fit-content;
+        align-items:normal;
+        height:15%;
+        display:block;
+        margin:0px auto;
+        transition:3s;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 3.0rem ;
+        
+    }
+    .controller:hover{
+        transform:scale(0.9);
+        cursor:pointer;
     }
 }
 
@@ -358,10 +363,13 @@ footer{
     }
 
     nav{
-        width:100%;
+        background:#44aa56;
+        width:103%;
+        font-size: 130%;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: 700;
         word-wrap: break-word;
         overflow-wrap: break-word;
-
     }
 
     .controller3{
@@ -448,9 +456,22 @@ footer{
     }    
 
     .controller{
-        width:200%;
-        margin-right: auto;
+        position:relative;
+        width: 27%;
+        max-width:fit-content;
+        align-items:normal;
+        height:15%;
+        display:block;
+        margin:0px auto;
+        transition:3s;
         margin-left: auto;
+        margin-right: auto;
+        border-radius: 3.0rem ;
+        
+    }
+    .controller:hover{
+        transform:scale(0.9);
+        cursor:pointer;
     }
 }
 
@@ -468,10 +489,13 @@ footer{
     }
 
     nav{
-        width:100%;
+        background:#44aa56;
+        width:103%;
+        font-size: 130%;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: 700;
         word-wrap: break-word;
         overflow-wrap: break-word;
-
     }
 
     .controller3{
@@ -510,9 +534,22 @@ footer{
     }
 
     .controller{
-        width:200%;
-        margin-right: auto;
+        position:relative;
+        width: 27%;
+        max-width:fit-content;
+        align-items:normal;
+        height:15%;
+        display:block;
+        margin:0px auto;
+        transition:3s;
         margin-left: auto;
+        margin-right: auto;
+        border-radius: 3.0rem ;
+        
+    }
+    .controller:hover{
+        transform:scale(0.9);
+        cursor:pointer;
     }
 }
 
@@ -528,10 +565,13 @@ footer{
     }
 
     nav{
-        width:100%;
+        background:#44aa56;
+        width:103%;
+        font-size: 130%;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: 700;
         word-wrap: break-word;
         overflow-wrap: break-word;
-
     }
 
     .controller3{
@@ -576,6 +616,25 @@ footer{
 
     nav ul li{
         font-size: 120%;
+    }
+
+    .controller{
+        position:relative;
+        width: 27%;
+        max-width:fit-content;
+        align-items:normal;
+        height:15%;
+        display:block;
+        margin:0px auto;
+        transition:3s;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 3.0rem ;
+        
+    }
+    .controller:hover{
+        transform:scale(0.9);
+        cursor:pointer;
     }
 }
 
@@ -637,6 +696,25 @@ footer{
         font-size:100%;
 
     }
+
+    .controller{
+        position:relative;
+        width: 27%;
+        max-width:fit-content;
+        align-items:normal;
+        height:15%;
+        display:block;
+        margin:0px auto;
+        transition:3s;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 3.0rem ;
+        
+    }
+    .controller:hover{
+        transform:scale(0.9);
+        cursor:pointer;
+    }
 }
 
 @media screen and (min-width:917px) {
@@ -691,6 +769,25 @@ footer{
 
     nav ul li{
         font-size: 120%;
+    }
+
+    .controller{
+        position:relative;
+        width: 27%;
+        max-width:fit-content;
+        align-items:normal;
+        height:15%;
+        display:block;
+        margin:0px auto;
+        transition:3s;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 3.0rem ;
+        
+    }
+    .controller:hover{
+        transform:scale(0.9);
+        cursor:pointer;
     }
 }
 
@@ -752,6 +849,25 @@ footer{
 
     nav ul li{
         font-size: 120%;
+    }
+
+    .controller{
+        position:relative;
+        width: 27%;
+        max-width:fit-content;
+        align-items:normal;
+        height:15%;
+        display:block;
+        margin:0px auto;
+        transition:3s;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 3.0rem ;
+        
+    }
+    .controller:hover{
+        transform:scale(0.9);
+        cursor:pointer;
     }
 }
 
@@ -820,6 +936,25 @@ footer{
         margin-left: auto;
         margin-right: auto;
         width: 65%;
+    }
+
+    .controller{
+        position:relative;
+        width: 27%;
+        max-width:fit-content;
+        align-items:normal;
+        height:15%;
+        display:block;
+        margin:0px auto;
+        transition:3s;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 3.0rem ;
+        
+    }
+    .controller:hover{
+        transform:scale(0.9);
+        cursor:pointer;
     }
 }
 
@@ -890,6 +1025,25 @@ footer{
         font-weight: 700;
         word-wrap: break-word;
         overflow-wrap: break-word;
+    }
+
+    .controller{
+        position:relative;
+        width: 27%;
+        max-width:fit-content;
+        align-items:normal;
+        height:15%;
+        display:block;
+        margin:0px auto;
+        transition:3s;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 3.0rem ;
+        
+    }
+    .controller:hover{
+        transform:scale(0.9);
+        cursor:pointer;
     }
 
   
