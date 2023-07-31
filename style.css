@@ -153,6 +153,24 @@ nav ul li a{
 }
 
 
+.goat{
+    background-color: #44aa56;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: 170%;
+    margin-left: 0.5%;
+}
+
+ul li a{ 
+    color:darkviolet;
+    font-size: 130%;
+    margin-left: 0.4%;
+    display:grid;
+}
+
+ul li{
+    margin-left: 0.3%;
+}
 
 .controller4 h1{
     font-size:60px;
@@ -187,11 +205,15 @@ nav ul li a{
     font-family: 'Courier New', Courier, monospace;
 }
 
+header{
 
-
+    justify-content:space-between;
+    
+}
 
 
 *{
+    box-sizing:border-box;
     padding:0;
     margin:0;
     background-color:rgba(69, 99, 96, 0);
@@ -300,6 +322,11 @@ nav ul li a{
         margin-left: auto;
         margin-right: auto;
         width: 65%;
+    }
+
+    .goat{
+        width:350%;
+        font-size:95%;
     }
     .controller1{
         width:350%;
