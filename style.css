@@ -326,7 +326,14 @@ header{
 
     .goat{
         width:350%;
-        font-size:95%;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+        border: 3px solid black;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 65%;
+
     }
     .controller1{
         width:350%;
@@ -399,6 +406,13 @@ header{
         word-wrap: break-word;
         overflow-wrap: break-word;
     }
+
+    .goat{
+        width:100%;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+
+    }
     .controller1{
         width:100%;
         
@@ -455,6 +469,11 @@ header{
         width:100%;
         word-wrap: break-word;
         overflow-wrap: break-word; 
+    }
+
+    .goat{
+        font-size: 120%;
+        font-weight: 700;
     }
     .controller4 h1{
         font-size: 120%;
@@ -543,6 +562,11 @@ header{
         font-size: 150%;
         font-weight: 800;
     }
+
+    .goat{
+        font-size: 150%;
+        font-weight: 800;
+    }
     .controller1{
         width:100%;
         font-size: 120%;
@@ -627,6 +651,11 @@ header{
     }
 
     .controller4 h1{
+        font-size: 150%;
+        font-weight: 800;
+    }
+
+    .goat{
         font-size: 150%;
         font-weight: 800;
     }
@@ -719,6 +748,11 @@ header{
         font-size: 150%;
         font-weight: 800;
     }
+
+    .goat{
+        font-size: 150%;
+        font-weight: 800;
+    }
     .controller1{
         width:100%;
         font-size: 120%;
@@ -795,6 +829,11 @@ header{
     }
 
     .controller4 h1{
+        font-size: 250%;
+        font-weight: 800;
+    }
+
+    .goat{
         font-size: 250%;
         font-weight: 800;
     }
@@ -875,6 +914,11 @@ header{
     }
 
     .controller4 h1{
+        font-size: 250%;
+        font-weight: 800;
+    }
+
+    .goat{
         font-size: 250%;
         font-weight: 800;
     }
@@ -964,6 +1008,11 @@ header{
     }
 
     .controller4 h1{
+        font-size: 250%;
+        font-weight: 800;
+    }
+
+    .goat{
         font-size: 250%;
         font-weight: 800;
     }
@@ -1059,6 +1108,11 @@ header{
     }
 
     .controller4 h1{
+        font-size: 250%;
+        font-weight: 800;
+    }
+
+    .goat{
         font-size: 250%;
         font-weight: 800;
     }
