@@ -44,7 +44,7 @@ label.logo{
 nav ul li{
     margin-left: 1.5%;
     font-size: 140%;
-    display:ruby;
+    display:flexbox;
 
 }
 
