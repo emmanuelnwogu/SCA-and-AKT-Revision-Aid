@@ -10,7 +10,7 @@ nav{
     font-size: 130%;
     font-family: 'Courier New', Courier, monospace;
     font-weight: 700;
-    column-count: 2;
+    column-count: 3;
 }
 
 nav:hover{
