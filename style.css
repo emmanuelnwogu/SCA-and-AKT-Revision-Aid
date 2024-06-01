@@ -157,6 +157,7 @@ footer{
         font-size:3px;
         font-family: 'Courier New', Courier, monospace;
         column-count: 1;
+        padding-top: 2px;
     }
     .topic-heading img{
         max-width: 100%;
@@ -198,6 +199,7 @@ footer{
         font-size:3px;
         font-family: 'Courier New', Courier, monospace;
         column-count: 3;
+        padding-top: 3px;
     }
 }
 
@@ -207,6 +209,7 @@ footer{
         font-size:3px;
         font-family: 'Courier New', Courier, monospace;
         column-count: 4;
+        padding-top: 2px;
     }
     .links-nav a{ 
         color:darkviolet;
