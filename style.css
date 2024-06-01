@@ -162,5 +162,18 @@ footer{
         max-width: 100%;
         min-width: 70%;
     }
+    .links-nav a{ 
+        color:darkviolet;
+        display:grid;
+        padding-left: 2px;
+        margin:2px;
+        text-decoration: none;
+        font-weight:600 ;
+        font-size: 15px;
+    }
+    .links-nav{
+        max-width: 100%;
+        min-width: 100%;
+    }
 }
 
