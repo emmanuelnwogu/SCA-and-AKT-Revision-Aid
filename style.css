@@ -181,7 +181,7 @@ footer{
     }
 }
 
-@media (min-width:601px) and (max-width:1500px){
+@media (min-width:601px) and (max-width:900px){
    
     
     .links-nav a{ 
@@ -192,6 +192,21 @@ footer{
         text-decoration: none;
         font-weight:600 ;
         font-size: 17px;
+    }
+    .links-nav{
+        width:100%;
+        font-size:3px;
+        font-family: 'Courier New', Courier, monospace;
+        column-count: 3;
+    }
+}
+
+@media (min-width:901px) and (max-width:1700px){
+    .links-nav{
+        width:100%;
+        font-size:3px;
+        font-family: 'Courier New', Courier, monospace;
+        column-count: 4;
     }
 }
 
