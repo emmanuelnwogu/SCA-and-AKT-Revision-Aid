@@ -208,5 +208,14 @@ footer{
         font-family: 'Courier New', Courier, monospace;
         column-count: 4;
     }
+    .links-nav a{ 
+        color:darkviolet;
+        display:grid;
+        padding-left: 2px;
+        margin:2px;
+        text-decoration: none;
+        font-weight:600 ;
+        font-size: 18px;
+    }
 }
 
