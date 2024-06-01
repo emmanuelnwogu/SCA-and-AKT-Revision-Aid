@@ -1,58 +1,119 @@
-.container{
-    height:100vh;
-    width:100%;
-    align-items: baseline;
-}
-
-nav{
-    background:#44aa56;
-    width:100%;
-    font-size: 130%;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: 700;
-    column-count: 3;
-}
-
-nav:hover{
-    cursor: pointer;
+body{
+    font-family: sans-serif;
+    background-color: beige;
+    max-width: 100%;
     
 }
-a:hover{
-    background: #bab8ba;
+
+header{
+
+    justify-content:space-between;
+    background-color:cadetblue;
+    
+}
+header h1,h3{
+    text-align: center;
 }
 
-#check{
-    display:none;
+header section{
+    border: solid;
+    background-color: antiquewhite;
+}
+.topic-heading{
+    display:flex;
+    flex-direction: column;
+}
+.topic-heading h2{
+    text-align: center;
+    padding: 5px;
+    border:solid;
+    background-color:bisque;
+    max-width: 100%;
+    
+}
+.topic-heading img{
+    min-width: 500px;
+    max-width: 1700px;
+}
+.topic-heading a{
+    font-size: 25px;
+    text-decoration: none;
+    text-align: center;
+    
 }
 
-
-label{
-    margin-left: 1%;
+.topic-heading a:hover{
+    color:red;
+    text-decoration: underline;
 }
 
-label.logo{
-    color:black;
-    font-size: 150%;
+.profile-image{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+}
+
+.profile-image img{
+    width:100px;
+    height:100px;
+    border-radius: 30px;
+    align-self: center;
+}
+
+.profile-image h3{
+    background-color:aquamarine;
+    padding:5 0 5 0;
+    text-align: center;
+}
+
+.links-nav a{ 
+    color:darkviolet;
+    display:grid;
+    padding-left: 2px;
+    margin:2px;
+    text-decoration: none;
+    font-weight:600 ;
+}
+
+.links-nav a:hover{
+    color:brown;
+    text-decoration: underline;
+    font-weight: 400;
+    
+}
+
+.links-nav{
+    width:100%;
+    font-size:3px;
     font-family: 'Courier New', Courier, monospace;
-    font-weight: 700;
-
+    column-count: 4;
 }
 
-.id{
-    display: grid;
+.greetings{
+    /*word-wrap: break-word;
+    overflow-wrap: break-word; */
+    text-align: center;
+    background-color: rgba(24, 131, 106, 0.268);
+    max-width: 100%;
 }
 
-nav ul li{
-    margin-left: 1.5%;
-    font-size: 140%;
-    display:flexbox;
-
+.disclaimer{
+    text-align: center;
+    background-color: cadetblue;
+    max-width: 100%;
+    width:auto;
 }
 
-ul li{
-    padding-left: 1rem;
-    background-image:url (https://th.bing.com/th/id/OIP.7ui1f8N5MYMPBKKvCKJpcgHaG3?w=172&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7);
-   
+main{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+}
+
+.bottom-links{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
 }
 
 ul{
@@ -60,158 +121,24 @@ ul{
     padding-left: 1rem;
 }
 
+footer{
+    background-color:cadetblue;
+    text-align: center;
+    padding:2 0 2 0;
+    margin:0 0 4 0;
 
-
-nav ul li a{
-    display:block;
-    font-size: 70%;
-    font-weight: 900;
-    font-family: 'Courier New', Courier, monospace;
-    text-decoration:none;    
 }
-
-
-.fish{
-    width:4%;
-    height:4%;
-    padding-left: 4%;
-    transition:2s;
-    border-radius: 3.0rem;
-}
-
-.fish:hover{
-    transform:scale(1.5);
-    cursor:pointer;
-}
-
-
-
-.controller2{
-    position:relative;
-    width:100%;
-    min-height:27px;
-    max-height:100px;
-    align-items: center;
-}
-
-.inner_header{
-    width:100%;
-    display:block;
-    background-color: rgba(24, 131, 106, 0.268);
-    font-size:350%;
-    text-align: left;
-    font-style:normal;
-    font-family:'Courier New', Courier, monospace;
-    font-stretch: expanded;
-    margin:0 auto;
-    transition:3s;
-    background-size:auto;
-    word-wrap: break-word;
-    overflow-wrap: break-word;
-    padding-left: 1.5rem;
-    
-}
-
-.inner_header:hover{
-    transform:scale(1.05);
-}
-.controller3{
-    width:100%;
-    min-width:70%;
-    max-width: 100%;
-    align-items:normal;
-    margin:auto;
-    font-family: 'Courier New', Courier, monospace;
-    word-wrap: break-word;
-    overflow-wrap: break-word;
-    padding-left: 1.5rem;
-    background-color: rgba(24, 131, 106, 0.268);
-}
-.controller1{
-    font-family: 'Courier New', Courier, monospace;
-    word-wrap: break-word;
-    overflow-wrap: break-word;
-    padding-left: 1.5rem;
-    max-width: 100%;
-    background-color: rgba(64, 195, 47, 0.486);
-}
-
-
-.controller8{
-    font-size:30px;
-}
-
-.wrapper-main{
-    width:192vh;
-    padding:10px 0;
-    margin:0px auto;
-}
-
-.controller4{
-    width:100%;
-    height:50px;
-    margin:auto;    
-}
-
-
-.goat{
-    background-color: #44aa56;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bolder;
-    font-size: 170%;
-    margin-left: 0.5%;
-}
-
-ul li a{ 
-    color:darkviolet;
-    font-size: 130%;
-    margin-left: 0.4%;
-    display:grid;
-}
-
-ul li{
-    margin-left: 0.3%;
-}
-
-.controller4 h1{
-    font-size:60px;
-    text-align:left;
-    width:100%;
-    min-width:70%;
-    max-height:250px;
-    max-zoom:0.5;
-    font-family: 'Courier New', Courier, monospace;
-    padding-left: 1.5rem;
-    background-color:rgba(17, 175, 223, 0.74);
-    border: 1.5px solid black;
-}
-
-.controller4 img{
-    margin-inline: 0%;
-    
-}
-
 
 .back-to-top{
     position:fixed;
     bottom: 5rem;
     right:3rem;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
     background-color: brown;
-    border-radius: 1rem;
+    border-radius:20%;
     font-size: 30px;
-    font-weight: 700;
-    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;
+    padding:5 2 5 3;
 }
-
-header{
-
-    justify-content:space-between;
-    
-}
-
 
 *{
     box-sizing:border-box;
@@ -220,1055 +147,20 @@ header{
     background-color:rgba(69, 99, 96, 0);
     background-size:auto;
 }
-.comment-box{
-    top:50%;
-    left:50%;
-    position:absolute;
-    transform:translate(, -50%);
-    width:200px;
 
-}
-
-.comment-box h2{
-    font-size:30px;
-    margin-bottom:10px;
-
-}
-
-.comment-box input{
-    width:100%;
-    height:25px;
-    padding:0 20px;
-    margin-bottom:10px;
-    border-radius:7px;
-    border:1px solid #559da8;
-}
-
-.comment-box input:focus{
-    border:1px soild #559d;
-    outline:0;
-}
-
-.comment-box textarea{
-    width:100%;
-    height:150px;
-    padding:15px 20px;
-    margin-bottom:10px;
-    border-radius:7px;
-    border:1px solid #559da8;
-}
-
-.comment-box textarea : focus{
-    border:1px solid #559d;
-    outline:0;
-}
-
-
-.comment-box button{
-    border:0;
-    padding:10px 30px;
-    background:#86b0b6;
-    font-size:15px;
-    border-radius:7px;
-    color:#fff;
-}
-
-.comment-box button hover{
-    background-color:#44aa56
-}
-
-.hints{
-    font-size: 50px;
-}
-
-.outside{
-    font-size:40px;
-    position:relative;
-    margin-left: 35%;
-    margin-right: auto;
-}
-
-@media screen and (min-width:1283px) (max-width:1300px){
-    .wrapper-main{
-        width:300%;
-        background-color:rgb(238, 239, 240);
+@media (max-width:600px){
+    .profile-image{
+        width:100%;
     }
-    h1{
-        font-size:calc(1rem+2.0rem);
-    }
-    h3{
-        --fs-xl:5rem;
-        --fs-600:1.5rem;
-        --fs-500:1.25rem;
-        --fs-400:1rem;
-    }
-    .inner_header{
-        width:350%;
-        word-wrap: break-word;
-        overflow-wrap: break-word;
-    }
-    .controller3{
-        width:350%;
-        word-wrap: break-word;
-        overflow-wrap: break-word;
-        text-overflow: ellipsis;
-        overflow:scroll;
-    }
-    .controller4{
-        width:350%;
-        word-wrap: break-word;
-        overflow-wrap: break-word;
-        border: 3px solid black;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 65%;
-    }
-
-    .goat{
-        width:350%;
-        word-wrap: break-word;
-        overflow-wrap: break-word;
-        border: 3px solid black;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 65%;
-
-    }
-    .controller1{
-        width:350%;
-        
-    }
-
-    nav{
-        background:#44aa56;
-        width:103%;
-        font-size: 130%;
+    .links-nav{
+        width:100%;
+        font-size:3px;
         font-family: 'Courier New', Courier, monospace;
-        font-weight: 700;
-        word-wrap: break-word;
-        overflow-wrap: break-word;
+        column-count: 1;
     }
-
-    .controller{
-        position:relative;
-        width: 27%;
-        max-width:fit-content;
-        align-items:normal;
-        height:15%;
-        display:block;
-        margin:0px auto;
-        transition:3s;
-        margin-left: auto;
-        margin-right: auto;
-        border-radius: 3.0rem ;
-        
-    }
-    .controller:hover{
-        transform:scale(0.9);
-        cursor:pointer;
-    }
-
-    .controller6{
-        width:100%;
-        font-size:95%;
-        margin-top: 1%;
-    }
-}
-
-@media screen and (min-width:279px) and (max-width:359){
-    .wrapper-main{
-        width:100%;
-        background-color:rgba(232, 229, 229, 0.002);
-        
-    }
-    .inner_header{
-        width:100%;
-    }
-
-    nav{
-        background:#44aa56;
-        width:103%;
-        font-size: 130%;
-        font-family: 'Courier New', Courier, monospace;
-        font-weight: 700;
-        word-wrap: break-word;
-        overflow-wrap: break-word;
-    }
-
-    .controller3{
-        width:100%;
-        word-wrap: break-word;
-        overflow-wrap: break-word;
-    }
-    .controller4{
-        width:100%;
-        word-wrap: break-word;
-        overflow-wrap: break-word;
-    }
-
-    .goat{
-        width:100%;
-        word-wrap: break-word;
-        overflow-wrap: break-word;
-
-    }
-    .controller1{
-        width:100%;
-        
-    }
-
-    .controller4 img{
-        width:100%;
-    }
-
-    .controller{
-        width:80%;
-        margin-right: auto;
-        margin-left: auto;
-    }
-    
-
-    .controller6{
-        width:100%;
-        font-size:95%;
-        margin-top: 1%;
-    }
-
-    
-}
-
-@media screen and (min-width:359px) and (max-width:411px){
-    .wrapper-main{
-        width:100%;
-        background-color:rgba(232, 229, 229, 0.002);
-        
-    }
-    .inner_header{
-        width:100%;
-        font-size: 180%;
-    }
-
-    nav{
-        background:#44aa56;
-        width:103%;
-        font-size: 130%;
-        font-family: 'Courier New', Courier, monospace;
-        font-weight: 700;
-        word-wrap: break-word;
-        overflow-wrap: break-word;
-    }
-
-    .controller3{
-        width:100%;
-        word-wrap: break-word;
-        overflow-wrap: break-word;
-        font-size: 120%;
-    }
-    .controller4{
-        width:100%;
-        word-wrap: break-word;
-        overflow-wrap: break-word; 
-    }
-
-    .goat{
-        font-size: 120%;
-        font-weight: 700;
-    }
-    .controller4 h1{
-        font-size: 120%;
-        font-weight: 700;
-    }
-    .controller1{
-        width:100%;
-        font-size: 120%;
-        
-    }
-    img{
-        width:100%;
-    }
-
-    nav ul li{
-        font-size: 120%;
-    }
-
-    .back-to-top{
-        width:35%; 
-        font-size: 120%;
-    }    
-
-    .controller{
-        position:relative;
-        width: 27%;
-        max-width:fit-content;
-        align-items:normal;
-        height:15%;
-        display:block;
-        margin:0px auto;
-        transition:3s;
-        margin-left: auto;
-        margin-right: auto;
-        border-radius: 3.0rem ;
-        
-    }
-    .controller:hover{
-        transform:scale(0.9);
-        cursor:pointer;
-    }
-
-    .controller6{
-        width:100%;
-        font-size:95%;
-        margin-top: 1%;
-    }
-}
-
-
-
-@media screen and (min-width:411px) and (max-width:913px){
-    .wrapper-main{
-        width:100%;
-        background-color:rgba(232, 229, 229, 0.002);
-        
-    }
-    .inner_header{
-        width:100%;
-        font-size: 120%;
-    }
-
-    nav{
-        background:#44aa56;
-        width:103%;
-        font-size: 130%;
-        font-family: 'Courier New', Courier, monospace;
-        font-weight: 700;
-        word-wrap: break-word;
-        overflow-wrap: break-word;
-    }
-
-    .controller3{
-        width:100%;
-        word-wrap: break-word;
-        overflow-wrap: break-word;
-        font-size: 120%;
-    }
-    .controller4{
-        width:100%;
-        word-wrap: break-word;
-        overflow-wrap: break-word;
-    }
-
-    .controller4 h1{
-        font-size: 150%;
-        font-weight: 800;
-    }
-
-    .goat{
-        font-size: 150%;
-        font-weight: 800;
-    }
-    .controller1{
-        width:100%;
-        font-size: 120%;
-        
-    }
-    img{
-        width:100%;
-    }
-
-    nav ul li{
-        font-size: 120%;
-    }
-
-    .back-to-top{
-        width:30%; 
-        font-size:150%;
-
-    }
-
-    .controller{
-        position:relative;
-        width: 27%;
-        max-width:fit-content;
-        align-items:normal;
-        height:15%;
-        display:block;
-        margin:0px auto;
-        transition:3s;
-        margin-left: auto;
-        margin-right: auto;
-        border-radius: 3.0rem ;
-        
-    }
-    .controller:hover{
-        transform:scale(0.9);
-        cursor:pointer;
-    }
-
-    .controller6{
-        width:100%;
-        font-size:95%;
-        margin-top: 1%;
-    }
-}
-
-@media screen and (min-width:913px) and (max-width:916px){
-    .wrapper-main{
-        width:100%;
-        background-color:rgba(232, 229, 229, 0.002);
-        
-    }
-    .inner_header{
-        width:100%;
-        font-size: 160%;
-    }
-
-    nav{
-        background:#44aa56;
-        width:103%;
-        font-size: 130%;
-        font-family: 'Courier New', Courier, monospace;
-        font-weight: 700;
-        word-wrap: break-word;
-        overflow-wrap: break-word;
-    }
-
-    .controller3{
-        width:100%;
-        word-wrap: break-word;
-        overflow-wrap: break-word;
-        font-size: 120%;
-    }
-    .controller4{
-        width:100%;
-        word-wrap: break-word;
-        overflow-wrap: break-word;
-        border: 3px solid black;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 65%;
-    }
-
-    .controller4 h1{
-        font-size: 150%;
-        font-weight: 800;
-    }
-
-    .goat{
-        font-size: 150%;
-        font-weight: 800;
-    }
-    .controller1{
-        width:100%;
-        font-size: 120%;
-        
-    }
-
-    .controller4 img{
-        width:100%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .back-to-top{
-        width:20%; 
-        font-size:130%;
-        margin-right: 7%;
-
-    }
-
-    nav ul li{
-        font-size: 120%;
-    }
-
-    .controller{
-        position:relative;
-        width: 27%;
-        max-width:fit-content;
-        align-items:normal;
-        height:15%;
-        display:block;
-        margin:0px auto;
-        transition:3s;
-        margin-left: auto;
-        margin-right: auto;
-        border-radius: 3.0rem ;
-        
-    }
-    .controller:hover{
-        transform:scale(0.9);
-        cursor:pointer;
-    }
-
-    .controller6{
-        width:100%;
-        font-size:95%;
-        margin-top: 1%;
-    }
-}
-
-@media screen and (min-width:411px) and (max-width:415px){
-    .wrapper-main{
-        width:100%;
-        background-color:rgba(232, 229, 229, 0.002);
-        
-    }
-    .inner_header{
-        width:100%;
-        font-size: 120%;
-    }
-
-    nav{
-        width:100%;
-        word-wrap: break-word;
-        overflow-wrap: break-word;
-
-    }
-
-    .controller{
-        width:80%;
-        margin-right: auto;
-        margin-left: auto;
-    }
-
-    .controller3{
-        width:100%;
-        word-wrap: break-word;
-        overflow-wrap: break-word;
-        font-size: 120%;
-    }
-    .controller4{
-        width:100%;
-        word-wrap: break-word;
-        overflow-wrap: break-word;
-    }
-
-    .controller4 h1{
-        font-size: 150%;
-        font-weight: 800;
-    }
-
-    .goat{
-        font-size: 150%;
-        font-weight: 800;
-    }
-    .controller1{
-        width:100%;
-        font-size: 120%;
-        
-    }
-    img{
-        width:100%;
-    }
-
-    nav ul li{
-        font-size: 120%;
-    }
-
-    .back-to-top{
-        width:30%; 
-        font-size:100%;
-
-    }
-
-    .controller{
-        position:relative;
-        width: 27%;
-        max-width:fit-content;
-        align-items:normal;
-        height:15%;
-        display:block;
-        margin:0px auto;
-        transition:3s;
-        margin-left: auto;
-        margin-right: auto;
-        border-radius: 3.0rem ;
-        
-    }
-    .controller:hover{
-        transform:scale(0.9);
-        cursor:pointer;
-    }
-
-    .controller6{
-        width:100%;
-        font-size:95%;
-        margin-top: 1%;
-    }
-}
-
-@media screen and (min-width:917px) {
-    .wrapper-main{
-        width:100%;
-        background-color:rgba(232, 229, 229, 0.002);
-        
-    }
-    .inner_header{
-        width:100%;
-        
-    }
-
-    nav{
-        width:100%;
-        word-wrap: break-word;
-        overflow-wrap: break-word;
-
-    }
-
-    .controller3{
-        width:100%;
-        word-wrap: break-word;
-        overflow-wrap: break-word;
-        font-size: 120%;
-    }
-    .controller4{
-        width:100%;
-        word-wrap: break-word;
-        overflow-wrap: break-word;
-    }
-
-    .controller4 h1{
-        font-size: 250%;
-        font-weight: 800;
-    }
-
-    .goat{
-        font-size: 250%;
-        font-weight: 800;
-    }
-    .controller1{
-        width:100%;
-        font-size: 120%;
-        
-    }
-
-    
-
-    .back-to-top{
-        width:20%; 
-        font-size:130%;
-        margin-right: 3%;
-        position: fixed;
-
-    }
-
-    nav ul li{
-        font-size: 120%;
-    }
-
-    .controller{
-        position:relative;
-        width: 27%;
-        max-width:fit-content;
-        align-items:normal;
-        height:15%;
-        display:block;
-        margin:0px auto;
-        transition:3s;
-        margin-left: auto;
-        margin-right: auto;
-        border-radius: 3.0rem ;
-        
-    }
-    .controller:hover{
-        transform:scale(0.9);
-        cursor:pointer;
-    }
-
-    .controller6{
-        width:100%;
-        font-size:95%;
-        margin-top: 1%;
-    }
-}
-
-@media screen and (min-width:539px) and (max-width:541px) {
-    .wrapper-main{
-        width:100%;
-        background-color:rgba(232, 229, 229, 0.002);
-        
-    }
-    .inner_header{
-        width:100%;
-        
-    }
-
-    nav{
-        width:100%;
-        word-wrap: break-word;
-        overflow-wrap: break-word;
-
-    }
-
-    .controller3{
-        width:100%;
-        word-wrap: break-word;
-        overflow-wrap: break-word;
-        font-size: 120%;
-    }
-    .controller4{
-        width:100%;
-        word-wrap: break-word;
-        overflow-wrap: break-word;
-    }
-
-    .controller4 h1{
-        font-size: 250%;
-        font-weight: 800;
-    }
-
-    .goat{
-        font-size: 250%;
-        font-weight: 800;
-    }
-    .controller1{
-        width:100%;
-        font-size: 120%;
-        
-    }
-
-    .controller{
-        width:200%;
-        margin-right: auto;
-        margin-left: auto;
-    }
-
-    
-
-    .back-to-top{
-        width:30%; 
-        font-size:140%;
-        margin-right: 15%;
-        position: fixed;
-
-    }
-
-    nav ul li{
-        font-size: 120%;
-    }
-
-    .controller{
-        position:relative;
-        width: 27%;
-        max-width:fit-content;
-        align-items:normal;
-        height:15%;
-        display:block;
-        margin:0px auto;
-        transition:3s;
-        margin-left: auto;
-        margin-right: auto;
-        border-radius: 3.0rem ;
-        
-    }
-    .controller:hover{
-        transform:scale(0.9);
-        cursor:pointer;
-    }
-
-    .controller6{
-        width:100%;
-        font-size:95%;
-        margin-top: 1%;
-    }
-}
-
-@media screen and (min-width:1023px) and (max-width:1024.5px) {
-    .wrapper-main{
-        width:100%;
-        background-color:rgba(232, 229, 229, 0.002);
-        
-    }
-    .inner_header{
-        width:100%;
-        
-    }
-
-    nav{
-        background:#44aa56;
-        width:103%;
-        font-size: 130%;
-        font-family: 'Courier New', Courier, monospace;
-        font-weight: 700;
-        word-wrap: break-word;
-        overflow-wrap: break-word;
-    }
-
-    .controller3{
-        width:100%;
-        word-wrap: break-word;
-        overflow-wrap: break-word;
-        font-size: 120%;
-    }
-    .controller4{
-        width:100%;
-        word-wrap: break-word;
-        overflow-wrap: break-word;
-    }
-
-    .controller4 h1{
-        font-size: 250%;
-        font-weight: 800;
-    }
-
-    .goat{
-        font-size: 250%;
-        font-weight: 800;
-    }
-    .controller1{
-        width:100%;
-        font-size: 120%;
-        
-    }
-
-    
-
-    .back-to-top{
-        width:20%; 
-        font-size:130%;
-        margin-right: 15%;
-        position: fixed;
-
-    }
-
-    nav ul li{
-        font-size: 120%;
-    }
-
-    .controller4 img{
-        min-width: 50%;
+    .topic-heading img{
         max-width: 100%;
-        border: 3px solid black;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 65%;
-    }
-
-    .controller{
-        position:relative;
-        width: 27%;
-        max-width:fit-content;
-        align-items:normal;
-        height:15%;
-        display:block;
-        margin:0px auto;
-        transition:3s;
-        margin-left: auto;
-        margin-right: auto;
-        border-radius: 3.0rem ;
-        
-    }
-    .controller:hover{
-        transform:scale(0.9);
-        cursor:pointer;
-    }
-
-    .controller6{
-        width:100%;
-        font-size:95%;
-        margin-top: 1%;
+        min-width: 70%;
     }
 }
-
-@media screen and (min-width:1279px) and (max-width:1282px) {
-    .wrapper-main{
-        width:100%;
-        background-color:rgba(232, 229, 229, 0.002);
-        
-    }
-    .inner_header{
-        width:100%;
-        
-    }
-
-
-    .controller3{
-        width:100%;
-        word-wrap: break-word;
-        overflow-wrap: break-word;
-        font-size: 120%;
-    }
-    .controller4{
-        width:100%;
-        word-wrap: break-word;
-        overflow-wrap: break-word;
-        
-    }
-
-    .controller4 img{
-        min-width: 50%;
-        max-width: 100%;
-        border: 3px solid black;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 65%;
-    }
-
-    .controller4 h1{
-        font-size: 250%;
-        font-weight: 800;
-    }
-
-    .goat{
-        font-size: 250%;
-        font-weight: 800;
-    }
-    .controller1{
-        width:100%;
-        font-size: 120%;
-        
-    }
-
-    
-
-    .back-to-top{
-        width:20%; 
-        font-size:130%;
-        margin-right: 0.1%;
-        position: fixed;
-
-    }
-
-    nav ul li{
-        font-size: 120%;
-    }
-
-    nav{
-        background:#44aa56;
-        width:103%;
-        font-size: 130%;
-        font-family: 'Courier New', Courier, monospace;
-        font-weight: 700;
-        word-wrap: break-word;
-        overflow-wrap: break-word;
-    }
-
-    .controller{
-        position:relative;
-        width: 27%;
-        max-width:fit-content;
-        align-items:normal;
-        height:15%;
-        display:block;
-        margin:0px auto;
-        transition:3s;
-        margin-left: auto;
-        margin-right: auto;
-        border-radius: 3.0rem ;
-        
-    }
-    .controller:hover{
-        transform:scale(0.9);
-        cursor:pointer;
-    }
-
-    .controller6{
-        width:100%;
-        font-size:95%;
-        margin-top: 1%;
-    }
-  
-}
-
-@media screen and (min-width:1283px) and (max-width:1800px) {
-    .wrapper-main{
-        width:100%;
-        background-color:rgba(232, 229, 229, 0.002);
-        
-    }
-    .inner_header{
-        width:100%;
-        
-    }
-
-
-    .controller3{
-        width:100%;
-        word-wrap: break-word;
-        overflow-wrap: break-word;
-        font-size: 120%;
-    }
-    .controller4{
-        width:100%;
-        word-wrap: break-word;
-        overflow-wrap: break-word;
-        
-    }
-
-    .controller4 img{
-        min-width: 50%;
-        max-width: 100%;
-        border: 3px solid black;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 65%;
-    }
-
-    .controller4 h1{
-        font-size: 250%;
-        font-weight: 800;
-    }
-    .controller1{
-        width:100%;
-        font-size: 120%;
-        
-    }
-
-    
-
-    .back-to-top{
-        width:20%; 
-        font-size:130%;
-        margin-right: 0.1%;
-        position: fixed;
-
-    }
-
-    nav ul li{
-        font-size: 120%;
-    }
-
-    nav{
-        background:#44aa56;
-        width:103%;
-        font-size: 130%;
-        font-family: 'Courier New', Courier, monospace;
-        font-weight: 700;
-        word-wrap: break-word;
-        overflow-wrap: break-word;
-    }
-
-    .controller{
-        position:relative;
-        width: 27%;
-        max-width:fit-content;
-        align-items:normal;
-        height:15%;
-        display:block;
-        margin:0px auto;
-        transition:3s;
-        margin-left: auto;
-        margin-right: auto;
-        border-radius: 3.0rem ;
-        
-    }
-    .controller:hover{
-        transform:scale(0.9);
-        cursor:pointer;
-    }
-
-    .controller6{
-        width:100%;
-        font-size:95%;
-        margin-top: 1%;
-    }
-    
-}
-
-
 
