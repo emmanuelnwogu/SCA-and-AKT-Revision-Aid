@@ -148,6 +148,36 @@ footer{
     background-size:auto;
 }
 
+.search-container {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+#searchBox {
+    padding: 10px;
+    font-size: 16px;
+    flex-grow: 1;
+}
+
+#searchButton {
+    padding: 10px;
+    font-size: 16px;
+}
+
+.highlight {
+    background-color: yellow;
+}
+
+.highlight.current {
+    background-color: orange;
+}
+
+#searchInfo {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
 @media (max-width:600px){
     .profile-image{
         width:100%;
