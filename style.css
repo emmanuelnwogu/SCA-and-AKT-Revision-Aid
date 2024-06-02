@@ -158,11 +158,20 @@ footer{
     padding: 10px;
     font-size: 16px;
     flex-grow: 1;
+    background-color: aliceblue;
+    border-radius: 10px;
 }
 
 #searchButton {
     padding: 10px;
     font-size: 16px;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+
+#searchButton:hover{
+    cursor: pointer;
+    color: chocolate;
 }
 
 .highlight {
