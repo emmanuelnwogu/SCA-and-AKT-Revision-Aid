@@ -129,6 +129,14 @@ footer{
 
 }
 
+.links-nav li:nth-child(odd) a{
+    color:darkblue;
+}
+
+.links-nav li:nth-child(even) a{
+    color:black;
+}
+
 .back-to-top{
     position:fixed;
     bottom: 5rem;
