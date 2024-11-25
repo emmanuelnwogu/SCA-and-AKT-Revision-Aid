@@ -75,18 +75,28 @@ header section{
     font-weight:600 ;
 }
 
-.links-nav a:hover{
-    color:brown;
-    text-decoration: underline;
-    font-weight: 400;
-    
-}
+
 
 .links-nav{
     width:100%;
     font-size:3px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family:cursive;
     column-count: 4;
+}
+
+.links-nav li:nth-child(odd) a{
+    color:darkblue;
+}
+
+.links-nav li:nth-child(even) a{
+    color:black;
+}
+
+.links-nav li a:hover{
+    color:brown;
+    text-decoration: underline;
+    font-weight:bold;
+    
 }
 
 .greetings{
@@ -129,13 +139,7 @@ footer{
 
 }
 
-.links-nav li:nth-child(odd) a{
-    color:darkblue;
-}
 
-.links-nav li:nth-child(even) a{
-    color:black;
-}
 
 .back-to-top{
     position:fixed;
