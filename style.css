@@ -141,11 +141,12 @@ footer{
     position:fixed;
     bottom: 5rem;
     right:3rem;
-    background-color: brown;
-    border-radius:20%;
+    background-color:green;
+    border-radius:30%;
     font-size: 30px;
     font-weight: 400;
     padding:5 2 5 3;
+    text-decoration: none;
 }
 
 *{
