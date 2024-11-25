@@ -1,57 +1,452 @@
-body {
-        font-family: 'Arial', sans-serif;
-        background-color: #f0f8ff; /* AliceBlue */
-        margin: 0;
-        padding: 0;
-        background-image: url('https://th.bing.com/th/id/R.e2fe28680682dbe3e86570c313f6c188?rik=dy5B6DMiRl%2f5Bg&riu=http%3a%2f%2fpluspng.com%2fimg-png%2fdna-png-hd-genetic-data-string-concept-of-a-blue-double-helix-dna-molecule-seamless-3d-animation-loop-motion-background-videoblocks-1920.png&ehk=wmxtKytkkKa5osXOkvmtW0qlygXXzX6vI81l8zKBM1k%3d&risl=&pid=ImgRaw&r=0');
-    }
-    
-    header {
-        background-color: #20b2aa; /* LightSeaGreen */
-        color: white;
+header {
+        padding: 10px;
         text-align: center;
-        padding: 1em;
-    }
-    
-    nav {
-        margin: 20px;
-    }
-    
-    ul {
-        list-style-type: none;
-        padding: 0;
-    }
-    
-    li {
-        margin: 10px;
-    }
-    
-    a {
-        text-decoration: none;
-        color: #0f0f0fc9; /* Teal */
-        font-weight: bold;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-size: larger;
-    }
+        background: #77a3d4;
+        color: #111111;
+        font-size: 100%;
+        font-family: 'Courier New', Courier, monospace;
+        display:grid;
+        }
 
-    li:hover {
-        background-color: #aaf; /* Set the background color for hover state */
-    }
-    
-    @media only screen and (max-width: 600px) {
-        /* Styles for devices with a screen width of 600 pixels or less */
-        body {
-            background-color: #add8e6; /* LightBlue */
+
+
+p{
+        font-size: 140%;
+        font-weight: bolder;
+        text-align: center;
+        color:rgb(27, 29, 29);
+        background-color: rgb(179, 223, 226);
+        font-family: 'Courier New', Courier, monospace;
+        
+}
+
+li{
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-style: normal;
+        font-weight: 450;
+        padding: 0.6%;
+}
+
+footer{
+        text-align: center;
+        color: rgb(22, 22, 22);
+        font-style: italic;
+        background-color: beige;
+        position: relative;
+        size-adjust:inherit;
+}
+
+@media screen and (min-width:279px) and (max-width:359px){
+        header {
+                padding: 10px;
+                text-align:center;
+                background: #77a3d4;
+                color: #111111;
+                font-size: 200%;
+                font-family: 'Courier New', Courier, monospace;
+                display:grid;
+                width:410%;
+                word-wrap: break-word;
+                overflow-wrap: break-word;
         }
-    }
-    
-    @media only screen and (min-width: 601px) and (max-width: 1024px) {
-        /* Styles for devices with a screen width between 601px and 1024px */
-        body {
-            background-color: #98fb98; /* PaleGreen */
+
+        .fish img{
+                width:500%;
         }
-    }
-    
-    /* Add more media queries for other devices as needed */
-    
-    
+
+        
+        .ant img{
+                width:460%;
+        }
+
+        .mango img{
+                width:460%;
+        }
+
+        p{
+                font-size: 250%;
+                font-weight: bolder;
+                text-align: center;
+                color:rgb(27, 29, 29);
+                background-color: rgb(179, 223, 226);
+                font-family: 'Courier New', Courier, monospace;
+                width:420%;
+                
+        }
+
+        li{
+                font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                font-style: normal;
+                font-weight: 450;
+                padding: 0.6%;
+                font-size:200%;
+        }
+
+        footer{
+                text-align: center;
+                color: rgb(22, 22, 22);
+                font-style: italic;
+                background-color: beige;
+                position: relative;
+                size-adjust:inherit;
+                width:420%;
+        }
+}
+       
+
+
+@media screen and (min-width:359px)and  (max-width:411px){
+        header {
+                padding: 10px;
+                text-align:center;
+                background: #77a3d4;
+                color: #111111;
+                font-size: 70%;
+                font-family: 'Courier New', Courier, monospace;
+                display:grid;
+                width:115%;
+                word-wrap: break-word;
+                overflow-wrap: break-word;
+                
+        }
+
+        p{
+                font-size: 140%;
+                font-weight: bolder;
+                text-align: center;
+                color:rgb(27, 29, 29);
+                background-color: rgb(179, 223, 226);
+                font-family: 'Courier New', Courier, monospace;
+                width:119%;
+                
+        }
+
+        .fish img{
+                width:123%;
+        }
+
+        .ant img{
+                width:123%;
+        }
+
+        .mango img{
+                width:123%;
+        }
+
+        li{
+                font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                font-style: normal;
+                font-weight: 450;
+                padding: 0.6%;
+        }
+
+        footer{
+                text-align: center;
+                color: rgb(22, 22, 22);
+                font-style: italic;
+                background-color: beige;
+                position: relative;
+                size-adjust:inherit;
+                width:119%
+        }
+}
+
+@media screen and (min-width:389px)and  (max-width:392px){
+        header {
+                padding: 10px;
+                text-align:center;
+                background: #77a3d4;
+                color: #111111;
+                font-size: 70%;
+                font-family: 'Courier New', Courier, monospace;
+                display:grid;
+                width:114%;
+                word-wrap: break-word;
+                overflow-wrap: break-word;
+                
+        }
+
+        p{
+                font-size: 140%;
+                font-weight: bolder;
+                text-align: center;
+                color:rgb(27, 29, 29);
+                background-color: rgb(179, 223, 226);
+                font-family: 'Courier New', Courier, monospace;
+                width:119%;
+                
+        }
+
+        .fish img{
+                width:117%;
+        }
+
+        .ant img{
+                width:117%;
+        }
+
+        .mango img{
+                width:117%;
+        }
+
+        li{
+                font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                font-style: normal;
+                font-weight: 450;
+                padding: 0.6%;
+        }
+
+        footer{
+                text-align: center;
+                color: rgb(22, 22, 22);
+                font-style: italic;
+                background-color: beige;
+                position: relative;
+                size-adjust:inherit;
+                width:100%
+        }
+}
+
+
+
+@media screen and (min-width:411px) and (max-width:913px){
+        header {
+                padding: 10px;
+                text-align:center;
+                background: #77a3d4;
+                color: #111111;
+                font-size: 70%;
+                font-family: 'Courier New', Courier, monospace;
+                display:grid;
+                width:97%;
+                word-wrap: break-word;
+                overflow-wrap: break-word;
+                
+        }
+
+        p{
+                font-size: 140%;
+                font-weight: bolder;
+                text-align: center;
+                color:rgb(27, 29, 29);
+                background-color: rgb(179, 223, 226);
+                font-family: 'Courier New', Courier, monospace;
+                width:104.5%;
+                
+        }
+
+        .fish img{
+                width:101%;
+        }
+
+        .ant img{
+                width:101%;
+        }
+
+        .mango img{
+                width:101%;
+        }
+
+        li{
+                font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                font-style: normal;
+                font-weight: 450;
+                padding: 0.6%;
+        }
+
+        footer{
+                text-align: center;
+                color: rgb(22, 22, 22);
+                font-style: italic;
+                background-color: beige;
+                position: relative;
+                size-adjust:inherit;
+                width:104.5%
+        }
+}
+
+
+@media screen and (min-width:913px) and (max-width:916px){
+        header {
+                padding: 10px;
+                text-align:center;
+                background: #77a3d4;
+                color: #111111;
+                font-size: 100%;
+                font-family: 'Courier New', Courier, monospace;
+                display:grid;
+                width:350%;
+        }
+
+        .fish img{
+                width:100%;
+        }
+
+        p{
+                font-size: 140%;
+                font-weight: bolder;
+                text-align: center;
+                color:rgb(27, 29, 29);
+                background-color: rgb(179, 223, 226);
+                font-family: 'Courier New', Courier, monospace;
+                width:350px;
+                
+        }
+
+        li{
+                font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                font-style: normal;
+                font-weight: 450;
+                padding: 0.6%;
+        }
+
+        footer{
+                text-align: center;
+                color: rgb(22, 22, 22);
+                font-style: italic;
+                background-color: beige;
+                position: relative;
+                size-adjust:inherit;
+        }
+}
+
+
+
+
+@media screen and (min-width:539px) and (max-width:541px){
+        header {
+                padding: 10px;
+                text-align:center;
+                background: #77a3d4;
+                color: #111111;
+                font-size: 100%;
+                font-family: 'Courier New', Courier, monospace;
+                display:grid;
+                width:119%;
+        }
+
+        .fish img{
+                width:109%;
+        }
+
+        p{
+                font-size: 140%;
+                font-weight: bolder;
+                text-align: center;
+                color:rgb(27, 29, 29);
+                background-color: rgb(179, 223, 226);
+                font-family: 'Courier New', Courier, monospace;
+                width:123%;
+                
+        }
+
+        li{
+                font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                font-style: normal;
+                font-weight: 450;
+                padding: 0.6%;
+        }
+
+        footer{
+                text-align: center;
+                color: rgb(22, 22, 22);
+                font-style: italic;
+                background-color: beige;
+                position: relative;
+                size-adjust:inherit;
+                width:123%;
+        }
+}
+
+
+@media screen and (min-width:1023px) and (max-width:1024.5px){
+        header {
+                padding: 10px;
+                text-align:center;
+                background: #77a3d4;
+                color: #111111;
+                font-size: 140%;
+                font-family: 'Courier New', Courier, monospace;
+                width:157.1%;
+        }
+
+        p{
+                font-size: 140%;
+                font-weight: bolder;
+                text-align: center;
+                color:rgb(27, 29, 29);
+                background-color: rgb(179, 223, 226);
+                font-family: 'Courier New', Courier, monospace;
+                width:159%;
+                
+        }
+
+        li{
+                font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                font-style: normal;
+                font-weight: 450;
+                padding: 0.6%;
+        }
+
+        footer{
+                text-align: center;
+                color: rgb(22, 22, 22);
+                font-style: italic;
+                background-color: beige;
+                position: relative;
+                size-adjust:inherit;
+                width: 159%;
+        }
+
+        .fish img{
+                width:max-content;
+        }
+}
+
+
+@media screen and (min-width:1279px) and  (max-width:1282px){
+
+        header {
+                padding: 10px;
+                text-align:center;
+                background: #77a3d4;
+                color: #111111;
+                font-size: 150%;
+                font-family: 'Courier New', Courier, monospace;
+                width:125.4%;
+        }
+
+        p{
+                font-size: 140%;
+                font-weight: bolder;
+                text-align: center;
+                color:rgb(27, 29, 29);
+                background-color: rgb(179, 223, 226);
+                font-family: 'Courier New', Courier, monospace;
+                width:126.9%;
+                
+        }
+
+        li{
+                font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                font-style: normal;
+                font-weight: 450;
+                padding: 0.6%;
+        }
+
+        footer{
+                text-align: center;
+                color: rgb(22, 22, 22);
+                font-style: italic;
+                background-color: beige;
+                position: relative;
+                size-adjust:inherit;
+                width: 126.9%;
+        }
+
+        .fish img{
+                width:max-content;
+        }
+}
+
+
